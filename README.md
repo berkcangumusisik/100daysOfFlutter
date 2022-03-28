@@ -7,12 +7,12 @@
 - Değişken kavramı
 - Değişken oluşturma kuralları
 - Veri Türleri
+- Yorum Satırları
 - İnterpolition Kavramı
 
 ## 2.Gün
 - Sabitler
 - Kaçış Dizileri
-- Yorum Satırları
 - Aritmetik Operatörler
 - Tür Dönüşümleri
 - Kullanıcıdan Veri Alma
