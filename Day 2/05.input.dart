@@ -14,7 +14,7 @@ void main(List<String> args) {
   print("${sayi1  + sayi2}");
 }
 /**
-Sadece	string türünde	girdi	olabilir.
-stdin import edilmelidir.
-readLineSync() metodu	ile	veri	konsoldan	okunur
+ * Sadece string türünde girdi olabilir.
+ * stdin import edilmelidir.
+ * readLineSync() metodu ile veri konsoldan okunur
  */

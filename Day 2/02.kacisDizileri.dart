@@ -15,15 +15,3 @@ void main(List<String> args) {
 • \” – Çift	tırnak	işareti
 • \’ – Tek	tırnak	işareti
  */
-
-/**
- * Yorum Satırları
-• Yorum	satırı	kullanımının	birçok	amacı	vardır.
-• Kodunuza	anlaşılır	notlar	yazmak.
-• Bazı	kod	satırını	geçici	olarak	gizlemek	için	kullanılabilir.
-• Satıra	yorum	ekleme	;
-//	işareti	ile	yapılır.	
-Örn	:	//	Bu	nesne	ile	veri	tabanına	erişelebilir.
-• Blok	yorumu	ekleme;
-/*	ile	açılır	*/	kapatılır.Tek	satır	değil	birden	fazla	satır	için	kullanılabilir
- */
