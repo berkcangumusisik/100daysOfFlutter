@@ -1,4 +1,3 @@
-import 'dart:ffi';
 
 /**
  * Mevcut bir sınıftan başka sınıfın türetilmesi için kullanılır.
@@ -17,13 +16,21 @@ Method overriding : üst sınıftaki değişken veya methodların alt sınıf ta
 
 void main(List<String> args) {
   User user1 = User();
-  NormalUser normal1 = NormalUser();
-  normal1.davetEt();
+  var user2 = NormalUser();
+  SadeceOkuyabilenNormalUser user3 = SadeceOkuyabilenNormalUser();
+  AdminUser user4 = AdminUser();
+  User user5 = SadeceOkuyabilenNormalUser();
+  List<User> users = [user1, user2, user3, user4, user5];
 
-  SadeceOkuyabilenNormalUser user = SadeceOkuyabilenNormalUser();
-  user.davetEt();
-  user.login();
+  test(user1);
+  test(user2);
+  test(user3);
+  test(user4);
+  test(user5);
+}
 
+void test(User kullanici) {
+  kullanici.login();
 }
 
 class User {
@@ -41,7 +48,7 @@ class NormalUser extends User {
   }
 
   @override
-  void login(){
+  void login() {
     print("Normal User Giriş Yaptı.");
   }
 }
@@ -55,5 +62,10 @@ class SadeceOkuyabilenNormalUser extends NormalUser {
 class AdminUser extends User {
   void toplamKullaniciSayisiniGoster() {
     print("Toplam Kullanıcı Sayısı : 20");
+  }
+
+  @override
+  void login() {
+    print("Admin User Giriş Yaptı.");
   }
 }
