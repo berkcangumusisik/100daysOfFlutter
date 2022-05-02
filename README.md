@@ -87,3 +87,8 @@
 - Polimorfizm
 - Kalıtımda Kurucu Methodlar
 - Abstract Sınıflar
+
+## 13.Gün
+- Interface Kullanımı
+- Static Method ve Değişken Kullanımı
+- Final ve Const 
