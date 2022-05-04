@@ -105,3 +105,13 @@
 - Hata Yönetimi
 - Asenkron İşlemler
 - Async ve Await Kullanımı
+
+
+# FLUTTER
+<img src="https://storage.googleapis.com/cms-storage-bucket/70760bf1e88b184bb1bc.png">
+
+## 15.Gün
+- Flutter Dosya Yapısı
+- Flutter Projesinde Bulunan Temel Widgetler
+- Material App Widgetleri ve Bileşenleri
+- Text Widgeti ve Bileşenleri
