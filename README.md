@@ -115,3 +115,9 @@
 - Flutter Projesinde Bulunan Temel Widgetler
 - Material App Widgetleri ve Bileşenleri
 - Text Widgeti ve Bileşenleri
+
+## 16.Gün
+- Container kullanımı
+- Aligment Widgeti
+- Center Widgeti
+- EdgeInsets ile Margin Ayarlama

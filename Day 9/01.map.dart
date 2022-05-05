@@ -7,18 +7,14 @@
  * Map<keyVeriTürü, valueVeriTürü> değişken = {}; şeklinde tanımlanır.
  */
 void main(List<String> args) {
-  Map<String, int> alanKodlari = {
-    "Ankara" : 312,
-    "Bursa" : 224,
-    "İstanbul": 212
-  };
+  Map<String, int> alanKodlari = {"Ankara": 312, "Bursa": 224, "İstanbul": 212};
 
   print(alanKodlari);
   print(alanKodlari["Ankara"]);
 
   Map<String, dynamic> berkcan = {
-    "Soyad" : "Gümüşışık",
-    "Yaş" : 23,
+    "Soyad": "Gümüşışık",
+    "Yaş": 23,
     "Bekar Mı": true
   };
   print(berkcan["Yaş"]);
@@ -35,9 +31,7 @@ void main(List<String> args) {
     print("Key : ${element.key} Değer: ${element.value}");
   }
 
-  if(berkcan.containsKey("Yaş")){
+  if (berkcan.containsKey("Yaş")) {
     print("Bulunan yaş değeri : ${berkcan['Yaş']}");
   }
- 
-  
 }
