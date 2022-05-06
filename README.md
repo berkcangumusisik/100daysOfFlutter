@@ -121,3 +121,12 @@
 - Aligment Widgeti
 - Center Widgeti
 - EdgeInsets ile Margin Ayarlama
+
+## 17. Gün 
+- Box Decoration Widgeti
+  - color
+  - shape
+  - border
+  - borderRadius
+  - İnternetten resim yükleme
+- Flutter Logosu Ekleme
