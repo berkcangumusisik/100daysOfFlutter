@@ -130,3 +130,14 @@
   - borderRadius
   - İnternetten resim yükleme
 - Flutter Logosu Ekleme
+
+## 18.Gün
+- Row ve Column Widgetleri
+- MainAxisAlignment
+- CrossAxisAlignment
+- MainAxisSize
+- Expanded Widgeti
+- Flexible Widgeti
+- Flex Kullanımı
+- DevTools Kullanımı
+- Örnek Uygulama
