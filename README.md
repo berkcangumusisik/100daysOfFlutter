@@ -141,3 +141,8 @@
 - Flex Kullanımı
 - DevTools Kullanımı
 - Örnek Uygulama
+
+## 19.Gün
+- Hot Reload
+- Hot Restart
+- Counter App Tasarımı Yapıldı.
