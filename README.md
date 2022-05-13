@@ -146,3 +146,17 @@
 - Hot Reload
 - Hot Restart
 - Counter App Tasarımı Yapıldı.
+
+## 20.Gün
+- Counter App Uygulaması Tamamlandı.
+- State ve SetState Kullanımı
+- BuildContext Kullanımı
+- Resim Ekleme İşlemleri
+  - Image.asset Kullanımı
+  - Image.network Kullanımı
+  - CircleAvatar Kullanımı
+  - FadeInImage Kullanımı
+  - IntrinsicHeight Kullanımı
+  - Lokal Resim Kullanımı
+  - Web Sitesinden Resim Alma
+  - Resim İşleminde pubspec.yaml Dosyasının Düzenlenmesi
