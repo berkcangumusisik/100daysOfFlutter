@@ -167,3 +167,14 @@
 - OutlinedButton Kullanımı
 - DropdownButton Kullanımı
 - PopupMenuButton Kullanımı
+
+## 22. Gün
+- Card Widgeti Kullanımı
+- ListTile Widgeti Kullanımı
+- Divider Widgeti Kullanımı
+- ListView Widgeti Kullanımı
+- ListView.builder Kullanımı
+- ListView.separated Kullanımı
+- Alert Dialog Kullanımı
+- Hazır Paket Kullanımı
+- EasyLoading Kullanımı
