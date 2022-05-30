@@ -178,3 +178,15 @@
 - Alert Dialog Kullanımı
 - Hazır Paket Kullanımı
 - EasyLoading Kullanımı
+
+## Day 23
+- Layout Problemleri
+- GridView Widgeti Kullanımı
+- GestureDetector Widgeti Kullanımı
+- GridView.count Kullanımı
+- GridView.extent Kullanımı
+- SliverAppBar Widgeti Kullanımı
+- SliverList Widgeti Kullanımı
+- SliverGrid Widgeti Kullanımı
+- SliverFixedExtentList Widgeti Kullanımı
+- SliverFillViewport Widgeti Kullanımı
