@@ -106,87 +106,13 @@
 - Asenkron İşlemler
 - Async ve Await Kullanımı
 
-
-# FLUTTER
-<img src="https://storage.googleapis.com/cms-storage-bucket/70760bf1e88b184bb1bc.png">
-
-## 15.Gün
-- Flutter Dosya Yapısı
-- Flutter Projesinde Bulunan Temel Widgetler
-- Material App Widgetleri ve Bileşenleri
-- Text Widgeti ve Bileşenleri
-
-## 16.Gün
-- Container kullanımı
-- Aligment Widgeti
-- Center Widgeti
-- EdgeInsets ile Margin Ayarlama
-
-## 17. Gün 
-- Box Decoration Widgeti
-  - color
-  - shape
-  - border
-  - borderRadius
-  - İnternetten resim yükleme
-- Flutter Logosu Ekleme
-
-## 18.Gün
-- Row ve Column Widgetleri
-- MainAxisAlignment
-- CrossAxisAlignment
-- MainAxisSize
-- Expanded Widgeti
-- Flexible Widgeti
-- Flex Kullanımı
-- DevTools Kullanımı
-- Örnek Uygulama
-
-## 19.Gün
-- Hot Reload
-- Hot Restart
-- Counter App Tasarımı Yapıldı.
-
-## 20.Gün
-- Counter App Uygulaması Tamamlandı.
-- State ve SetState Kullanımı
-- BuildContext Kullanımı
-- Resim Ekleme İşlemleri
-  - Image.asset Kullanımı
-  - Image.network Kullanımı
-  - CircleAvatar Kullanımı
-  - FadeInImage Kullanımı
-  - IntrinsicHeight Kullanımı
-  - Lokal Resim Kullanımı
-  - Web Sitesinden Resim Alma
-  - Resim İşleminde pubspec.yaml Dosyasının Düzenlenmesi
-
-## 21. Gün
-- Text Button Kullanımı
-- ElevatedButton Kullanımı
-- OutlinedButton Kullanımı
-- DropdownButton Kullanımı
-- PopupMenuButton Kullanımı
-
-## 22. Gün
-- Card Widgeti Kullanımı
-- ListTile Widgeti Kullanımı
-- Divider Widgeti Kullanımı
-- ListView Widgeti Kullanımı
-- ListView.builder Kullanımı
-- ListView.separated Kullanımı
-- Alert Dialog Kullanımı
-- Hazır Paket Kullanımı
-- EasyLoading Kullanımı
-
-## Day 23
-- Layout Problemleri
-- GridView Widgeti Kullanımı
-- GestureDetector Widgeti Kullanımı
-- GridView.count Kullanımı
-- GridView.extent Kullanımı
-- SliverAppBar Widgeti Kullanımı
-- SliverList Widgeti Kullanımı
-- SliverGrid Widgeti Kullanımı
-- SliverFixedExtentList Widgeti Kullanımı
-- SliverFillViewport Widgeti Kullanımı
+## 15. Gün
+- Dart Programlama Temel Konuları Veli Bacık 7 Saatlik Videonun 4 Saatlik Kısmı İzlenerek Tekrar Edildi.
+    - print() fonksiyonu
+    - Değişkenler
+    - Yorum Satırları
+    - Karar Yapıları
+    - Operatörler
+    - Döngüler
+    - Listeler
+    - Map 

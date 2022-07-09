@@ -8,7 +8,7 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart",
-            "program": "day1/02.variables.dart"
+            "program": "Day 15/operators.dart"
         }
     ]
 }
