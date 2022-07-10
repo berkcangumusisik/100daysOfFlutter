@@ -116,3 +116,7 @@
     - Döngüler
     - Listeler
     - Map 
+    - Class Kavramı
+
+## 16. Gün
+- Dart Programlama Nesne Yönelimli Programlama Kısmı Veli Bacık 7 Saatlik Videonun son 3 saatlik kısmından tamamlanmıştır.
