@@ -120,3 +120,17 @@
 
 ## 16. Gün
 - Dart Programlama Nesne Yönelimli Programlama Kısmı Veli Bacık 7 Saatlik Videonun son 3 saatlik kısmından tamamlanmıştır.
+
+# FLUTTER 
+<img src="https://ozgurozkok.com/wp-content/uploads/2020/05/flutter2.png">
+
+## 17. Gün
+- Flutter Nedir?
+- Flutter Ne İşe Yarar?
+- Flutter Nasıl Çalışır?
+- Everything is Widget (Her şey Widget'tır Mantığı)
+- flutter doctor Komutu
+- Yeni Proje Oluşturma
+- Neden Flutter?
+- Flutter Klasör Yapısı
+- Flutter ile Gelen İlk Uygulama
