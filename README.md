@@ -134,3 +134,16 @@
 - Neden Flutter?
 - Flutter Klasör Yapısı
 - Flutter ile Gelen İlk Uygulama
+
+
+### Bundan sonraki projeler flutter_full_learn içerisinde devam edecektedir.
+
+## 18. Gün
+- Material App'in Önemi
+- Scaffold Widget
+- Center Widget
+- Text Widget
+  - Text Widget'ın kullanımı
+  - Text Widgeti Tasarım İşlemleri
+  - Text Widget ile Değişken Kullanımı
+  - TextStyle Farklı Sınıftan Çağırma
