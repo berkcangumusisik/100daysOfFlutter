@@ -1,17 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_full_learn/Day%2018/textLearnView.dart';
+import 'package:flutter_full_learn/Day%2019/scaffoldLearn.dart';
+
+import 'Day 19/containerSizedBoxLearn.dart';
 
 void main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo', // title uygulamanın telefondaki app başlığıdır.
       theme: ThemeData.dark(),
-      home: TextLearnView(),
+      home: const ScaffoldLearnView(),
     );
   }
 }

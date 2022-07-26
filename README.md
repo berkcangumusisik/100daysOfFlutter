@@ -147,3 +147,11 @@
   - Text Widgeti Tasarım İşlemleri
   - Text Widget ile Değişken Kullanımı
   - TextStyle Farklı Sınıftan Çağırma
+
+## 19. Gün
+- SizedBox Widget Kullanımı
+   - SizedBox.shrink() Kullanımı
+   - SizedBox.square() Kullanımı
+- Container Widget Kullanımı
+- Container Widget Propertileri
+- Scaffold Detaylı Kullanımı
