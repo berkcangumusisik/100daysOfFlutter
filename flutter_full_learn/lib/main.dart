@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_full_learn/Day%2018/textLearnView.dart';
-import 'package:flutter_full_learn/Day%2019/scaffoldLearn.dart';
-
-import 'Day 19/containerSizedBoxLearn.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_full_learn/Day18/textLearnView.dart';
+import 'package:flutter_full_learn/Day19/containerSizedBoxLearn.dart';
+import 'package:flutter_full_learn/Day19/scaffoldLearn.dart';
+import 'package:flutter_full_learn/Day20/appBarLearn.dart';
+import 'package:flutter_full_learn/Day20/buttonsLearn.dart';
+import 'package:flutter_full_learn/Day20/colorLearn.dart';
+import 'package:flutter_full_learn/Day20/iconLearn.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,8 +19,18 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo', // title uygulamanın telefondaki app başlığıdır.
-      theme: ThemeData.dark(),
-      home: const ScaffoldLearnView(),
+      theme: ThemeData.dark().copyWith(
+        appBarTheme: const AppBarTheme(
+          centerTitle: true, // title'ın ortasında yer almasını sağlar.
+          backgroundColor: Colors
+              .transparent, // AppBar'ın arkaplan rengini transparan yapar.
+          systemOverlayStyle: SystemUiOverlayStyle
+              .light, // AppBar'ın arkaplan rengini karanlık yapar.
+
+          elevation: 0, // AppBar'ın yüksekliğini 0 yapar.
+        ),
+      ),
+      home: ColorLearn(),
     );
   }
 }
