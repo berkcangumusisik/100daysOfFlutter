@@ -178,3 +178,6 @@
 - Resim İşlemleri
   - Image.asset() Kullanımı
   - Image.network() Kullanımı
+
+## 23. Gün
+- Ekran Tasarımı
