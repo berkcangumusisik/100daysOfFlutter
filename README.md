@@ -172,3 +172,9 @@
 - SizeBox Widget Kullanımı
 - Stateless Widget Kullanımı
 - Padding Widget Kullanımı
+
+## 22. Gün
+- Card Widget Kullanımı
+- Resim İşlemleri
+  - Image.asset() Kullanımı
+  - Image.network() Kullanımı

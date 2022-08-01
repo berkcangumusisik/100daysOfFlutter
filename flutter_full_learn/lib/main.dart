@@ -10,6 +10,7 @@ import 'package:flutter_full_learn/Day20/iconLearn.dart';
 import 'package:flutter_full_learn/Day22/cardLearn.dart';
 import 'package:flutter_full_learn/Day21/paddingLearn.dart';
 import 'package:flutter_full_learn/Day21/statleessLearn.dart';
+import 'package:flutter_full_learn/Day22/imageLearn.dart';
 
 void main() {
   runApp(MyApp());
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
           elevation: 0, // AppBar'ın yüksekliğini 0 yapar.
         ),
       ),
-      home: CardLearn(),
+      home: ImageLearn(),
     );
   }
 }
