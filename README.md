@@ -181,3 +181,8 @@
 
 ## 23. Gün
 - Ekran Tasarımı
+
+## 24. Gün
+- Özel Widget Geliştirme(Custom Widget)
+- Indicator Widget Kullanımı
+- ListTile Widget Kullanımı

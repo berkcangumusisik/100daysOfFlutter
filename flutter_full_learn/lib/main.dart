@@ -12,6 +12,9 @@ import 'package:flutter_full_learn/Day21/paddingLearn.dart';
 import 'package:flutter_full_learn/Day21/statleessLearn.dart';
 import 'package:flutter_full_learn/Day22/imageLearn.dart';
 import 'package:flutter_full_learn/Day23/notDemosView.dart';
+import 'package:flutter_full_learn/Day24/customComponentLearn.dart';
+import 'package:flutter_full_learn/Day24/indicatorLearn.dart';
+import 'package:flutter_full_learn/Day24/listTileLearn.dart';
 
 void main() {
   runApp(MyApp());
@@ -35,7 +38,7 @@ class MyApp extends StatelessWidget {
           elevation: 0, // AppBar'ın yüksekliğini 0 yapar.
         ),
       ),
-      home: NoteDemos(),
+      home: ListTileLearn(),
     );
   }
 }
