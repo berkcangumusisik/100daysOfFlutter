@@ -186,3 +186,15 @@
 - Özel Widget Geliştirme(Custom Widget)
 - Indicator Widget Kullanımı
 - ListTile Widget Kullanımı
+
+## 25. Gün
+- Core ve Product klasörlerinin oluşturulması
+- Core klasörünün içerisinde Dosya Kullanımı
+- Row ve Column Widget Kullanımı
+- Expanded Widget Kullanımı
+- Spacer Widget Kullanımı
+- MainAxisAlignment Widget Kullanımı
+- CrossAxisAlignment Widget Kullanımı
+- MainAxisSize Widget Kullanımı
+- Stack Widget Kullanımı
+- Positioned Widget Kullanımı
