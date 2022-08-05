@@ -197,4 +197,8 @@
 - CrossAxisAlignment Widget Kullanımı
 - MainAxisSize Widget Kullanımı
 - Stack Widget Kullanımı
-- Positioned Widget Kullanımı
+
+## 26. Gün
+- Statefull Widget Kullanımı
+- setState() Methodu Kullanımı
+- Product Klasörünün içerisinde languages klasörü ve counterHelloButton.dart dosyasını oluşturunuz.

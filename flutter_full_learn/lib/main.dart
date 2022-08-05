@@ -18,6 +18,7 @@ import 'package:flutter_full_learn/Day24/listTileLearn.dart';
 import 'package:flutter_full_learn/Day25/columnRowLearn.dart';
 import 'package:flutter_full_learn/Day25/stackDemoView.dart';
 import 'package:flutter_full_learn/Day25/stackLayout.dart';
+import 'package:flutter_full_learn/Day26/stateFullLifeCycleLearn.dart';
 
 void main() {
   runApp(MyApp());
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
           elevation: 0, // AppBar'ın yüksekliğini 0 yapar.
         ),
       ),
-      home: StackDemoView(),
+      home: StatefullLearn(),
     );
   }
 }
