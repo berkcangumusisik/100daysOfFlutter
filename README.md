@@ -202,3 +202,11 @@
 - Statefull Widget Kullanımı
 - setState() Methodu Kullanımı
 - Product Klasörünün içerisinde languages klasörü ve counterHelloButton.dart dosyasını oluşturunuz.
+
+## 27. Gün
+- Page View Kullanımı
+- Page View Widget Propertileri
+- Statefull Widget Hayat Döngüsü
+- initState() Methodu Kullanımı
+- dispose() Methodu Kullanımı
+- didUpdateWidget() Methodu Kullanımı
