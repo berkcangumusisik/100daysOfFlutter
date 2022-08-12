@@ -21,6 +21,7 @@ import 'package:flutter_full_learn/Day25/stackLayout.dart';
 import 'package:flutter_full_learn/Day26/stateFullLearn.dart';
 import 'package:flutter_full_learn/Day27/pageViewLearn.dart';
 import 'package:flutter_full_learn/Day27/stateFullLifeCycleLearn.dart';
+import 'package:flutter_full_learn/Day28/textFieldLearn.dart';
 
 void main() {
   runApp(MyApp());
@@ -44,7 +45,7 @@ class MyApp extends StatelessWidget {
           elevation: 0, // AppBar'ın yüksekliğini 0 yapar.
         ),
       ),
-      home: StateFullLifeCycleLearn(message: "Berkcan"),
+      home: TextFieldLearn(),
     );
   }
 }

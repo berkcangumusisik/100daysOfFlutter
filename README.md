@@ -210,3 +210,7 @@
 - initState() Methodu Kullanımı
 - dispose() Methodu Kullanımı
 - didUpdateWidget() Methodu Kullanımı
+
+## 28. Gün
+- TextField Widget Kullanımı
+- TextField Widget Propertileri
