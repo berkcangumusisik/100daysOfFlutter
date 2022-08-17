@@ -22,6 +22,7 @@ import 'package:flutter_full_learn/Day26/stateFullLearn.dart';
 import 'package:flutter_full_learn/Day27/pageViewLearn.dart';
 import 'package:flutter_full_learn/Day27/stateFullLifeCycleLearn.dart';
 import 'package:flutter_full_learn/Day28/textFieldLearn.dart';
+import 'package:flutter_full_learn/Day29/colorDemosView.dart';
 
 void main() {
   runApp(MyApp());
@@ -45,7 +46,7 @@ class MyApp extends StatelessWidget {
           elevation: 0, // AppBar'ın yüksekliğini 0 yapar.
         ),
       ),
-      home: TextFieldLearn(),
+      home: const ColorDemos(initialColor: Colors.yellow),
     );
   }
 }

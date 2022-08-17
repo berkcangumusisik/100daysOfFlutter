@@ -214,3 +214,6 @@
 ## 28. Gün
 - TextField Widget Kullanımı
 - TextField Widget Propertileri
+
+## 29. Gün
+- Color Demos View Uygulaması
