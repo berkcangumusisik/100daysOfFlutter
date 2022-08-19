@@ -217,3 +217,10 @@
 
 ## 29. Gün
 - Color Demos View Uygulaması
+
+## 30. Gün
+- ListView Widget Kullanımı
+- ListView.builder() Kullanımı
+
+## 31. Gün
+- My Collection Demo 
