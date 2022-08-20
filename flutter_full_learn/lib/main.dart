@@ -26,6 +26,7 @@ import 'package:flutter_full_learn/Day29/colorDemosView.dart';
 import 'package:flutter_full_learn/Day30/listViewBuilder.dart';
 import 'package:flutter_full_learn/Day30/listViewLearn.dart';
 import 'package:flutter_full_learn/Day31/myCollectionsDemos.dart';
+import 'package:flutter_full_learn/Day32/navigationLearn.dart';
 
 void main() {
   runApp(MyApp());
@@ -49,7 +50,7 @@ class MyApp extends StatelessWidget {
           elevation: 0, // AppBar'ın yüksekliğini 0 yapar.
         ),
       ),
-      home: MyCollectionsDemos(),
+      home: NavigationLearn(),
     );
   }
 }

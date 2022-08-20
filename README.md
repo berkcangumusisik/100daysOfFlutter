@@ -224,3 +224,8 @@
 
 ## 31. Gün
 - My Collection Demo 
+ 
+## 32. Gün
+- Navigator İşlemleri
+- Navigator.push() Methodu Kullanımı
+- Navigator.pop() Methodu Kullanımı
