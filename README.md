@@ -232,3 +232,7 @@
 
 ## 33. Gün
 - TabBar Widget Kullanımı
+
+## 34. Gün
+- Model
+- Model Çeşitleri
