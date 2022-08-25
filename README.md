@@ -239,3 +239,16 @@
 
 ## 35.Gün
 - Servis Kullanımı
+- Json
+- Servis Yapısı
+- HTTP Request
+ - GET
+ - POST
+ - DELETE
+ - PUT
+
+## 36.Gün
+- Try Catch Kullanımı
+- Future Kullanımı
+- Post Service Class
+- Dio Kullanımı
