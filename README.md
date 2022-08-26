@@ -252,3 +252,7 @@
 - Future Kullanımı
 - Post Service Class
 - Dio Kullanımı
+
+## 37.Gün
+- Paket Kullanımı
+- pubdev ile Paket Kullanımı
