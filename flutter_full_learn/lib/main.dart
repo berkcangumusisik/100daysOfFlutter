@@ -30,6 +30,7 @@ import 'package:flutter_full_learn/Day32/navigationLearn.dart';
 import 'package:flutter_full_learn/Day33/tabLearn.dart';
 import 'package:flutter_full_learn/Day34/modelLearnView.dart';
 import 'package:flutter_full_learn/Day36/service/serviceLearnView.dart';
+import 'package:flutter_full_learn/Day38/packageLearnView.dart';
 
 void main() {
   runApp(MyApp());
@@ -53,7 +54,7 @@ class MyApp extends StatelessWidget {
           elevation: 0, // AppBar'ın yüksekliğini 0 yapar.
         ),
       ),
-      home: ServiceLearn(),
+      home: PackagLearnView(),
     );
   }
 }

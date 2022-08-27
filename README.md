@@ -256,3 +256,7 @@
 ## 37.Gün
 - Paket Kullanımı
 - pubdev ile Paket Kullanımı
+
+## 38.Gün
+- Spinkit Paket Kullanımı
+- Url Launcher Paket Kullanımı
