@@ -31,6 +31,8 @@ import 'package:flutter_full_learn/Day33/tabLearn.dart';
 import 'package:flutter_full_learn/Day34/modelLearnView.dart';
 import 'package:flutter_full_learn/Day36/service/serviceLearnView.dart';
 import 'package:flutter_full_learn/Day38/packageLearnView.dart';
+import 'package:flutter_full_learn/Day39/themeLearnView.dart';
+import 'package:flutter_full_learn/Day39/widgetSizeEnumLearnView.dart';
 
 void main() {
   runApp(MyApp());
@@ -43,6 +45,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo', // title uygulamanın telefondaki app başlığıdır.
+      //theme: ThemeData(),
       theme: ThemeData.dark().copyWith(
         appBarTheme: const AppBarTheme(
           centerTitle: true, // title'ın ortasında yer almasını sağlar.
@@ -54,7 +57,7 @@ class MyApp extends StatelessWidget {
           elevation: 0, // AppBar'ın yüksekliğini 0 yapar.
         ),
       ),
-      home: PackagLearnView(),
+      home: ThemeLearnView(),
     );
   }
 }

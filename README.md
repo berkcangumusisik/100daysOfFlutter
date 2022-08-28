@@ -260,3 +260,8 @@
 ## 38.Gün
 - Spinkit Paket Kullanımı
 - Url Launcher Paket Kullanımı
+
+## 39.Gün
+- Tema Kullanımı
+- Enum ile Boyut Kullanımı
+- 
