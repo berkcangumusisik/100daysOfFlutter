@@ -264,4 +264,6 @@
 ## 39.Gün
 - Tema Kullanımı
 - Enum ile Boyut Kullanımı
-- 
+
+## 40.Gün
+- Burç Rehberi Uygulaması
