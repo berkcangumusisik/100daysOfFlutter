@@ -267,3 +267,13 @@
 
 ## 40.Gün
 - Burç Rehberi Uygulaması
+
+## 41.Gün
+- İleri Seviye Görsel İşlemleri
+- Animasyon İşlemleri
+ - AnimatedCrossFade
+ - AnimatedOpacity
+ - AnimatedDefaultTextStyle
+ - AnimatedContainer
+ - AnimatedIcon
+ - AnimatedPositioned
