@@ -36,6 +36,8 @@ import 'package:flutter_full_learn/Day39/widgetSizeEnumLearnView.dart';
 import 'package:flutter_full_learn/Day40/burcListesi.dart';
 import 'package:flutter_full_learn/Day41/animatedLearn.dart';
 import 'package:flutter_full_learn/Day41/imageLearn202.dart';
+import 'package:flutter_full_learn/Day42/formLearnView.dart';
+import 'package:flutter_full_learn/Day42/oopLearnView.dart';
 
 void main() {
   runApp(MyApp());
@@ -60,7 +62,7 @@ class MyApp extends StatelessWidget {
           elevation: 0, // AppBar'ın yüksekliğini 0 yapar.
         ),
       ),
-      home: AnimatedLearnView(),
+      home: FormLearnView(),
     );
   }
 }

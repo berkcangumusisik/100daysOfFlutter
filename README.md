@@ -277,3 +277,7 @@
  - AnimatedContainer
  - AnimatedIcon
  - AnimatedPositioned
+
+## 42.Gün
+- Flutter ile OOP Kullanımı
+- Form Kullanımı
