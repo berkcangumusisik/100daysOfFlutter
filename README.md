@@ -281,3 +281,7 @@
 ## 42.Gün
 - Flutter ile OOP Kullanımı
 - Form Kullanımı
+
+## 43.Gün
+- PopUp Menü Kullanımı
+- Easy Loading Kullanımı

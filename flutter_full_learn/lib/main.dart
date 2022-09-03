@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_full_learn/Day18/textLearnView.dart';
 import 'package:flutter_full_learn/Day19/containerSizedBoxLearn.dart';
 import 'package:flutter_full_learn/Day19/scaffoldLearn.dart';
@@ -38,6 +39,8 @@ import 'package:flutter_full_learn/Day41/animatedLearn.dart';
 import 'package:flutter_full_learn/Day41/imageLearn202.dart';
 import 'package:flutter_full_learn/Day42/formLearnView.dart';
 import 'package:flutter_full_learn/Day42/oopLearnView.dart';
+import 'package:flutter_full_learn/Day43/listLearnView.dart';
+import 'package:flutter_full_learn/Day43/popupLearnView.dart';
 
 void main() {
   runApp(MyApp());
@@ -62,10 +65,28 @@ class MyApp extends StatelessWidget {
           elevation: 0, // AppBar'ın yüksekliğini 0 yapar.
         ),
       ),
-      home: FormLearnView(),
+      home: ListLearnView(),
+      builder: EasyLoading.init(),
     );
   }
 }
+
+void configLoading() {
+  EasyLoading.instance
+    ..displayDuration = const Duration(milliseconds: 2000)
+    ..indicatorType = EasyLoadingIndicatorType.fadingCircle
+    ..loadingStyle = EasyLoadingStyle.custom
+    ..indicatorSize = 45.0
+    ..radius = 10.0
+    ..progressColor = Colors.yellow
+    ..backgroundColor = Colors.green
+    ..indicatorColor = Colors.yellow
+    ..textColor = Colors.white
+    ..maskColor = Colors.blue.withOpacity(0.5)
+    ..userInteractions = true
+    ..dismissOnTap = true;
+}
+
 
 /**
  * Flutter bir software development kitidir. Bir UI kitidir.
