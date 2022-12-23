@@ -16,3 +16,9 @@
 - Yorum Satırları
 - İnterpolition Kavramı
 
+## 2.Gün
+
+- Sabitler
+- If else if else yapısı
+- Ternary Operator
+- Switch Case yapısı
