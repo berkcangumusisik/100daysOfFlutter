@@ -22,3 +22,9 @@
 - If else if else yapısı
 - Ternary Operator
 - Switch Case yapısı
+
+## 3.Gün
+- Aritmetik Operatörler
+- Atama Operatörleri
+- Karşılaştırma Operatörleri
+- Mantıksal Operatörler
