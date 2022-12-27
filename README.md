@@ -28,3 +28,7 @@
 - Atama Operatörleri
 - Karşılaştırma Operatörleri
 - Mantıksal Operatörler
+
+## 4.Gün
+- Kullanıcıdan Veri Alma
+- Alan Hesaplama
