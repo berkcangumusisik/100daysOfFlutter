@@ -40,3 +40,10 @@
 - Break ve Continue Kavramları
 - 15'in Katları
 - İsim Tekrarla
+
+
+# 6.Gün
+- Listeler
+- Listelerde İşlemler
+- Liste Metotları
+- Listeleri For Döngüsü İle Kullanma
