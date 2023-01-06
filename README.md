@@ -47,3 +47,9 @@
 - Listelerde İşlemler
 - Liste Metotları
 - Listeleri For Döngüsü İle Kullanma
+
+# 7.Gün
+- Map
+- Set
+- Sehirler
+- Ortalama Hesaplama 
