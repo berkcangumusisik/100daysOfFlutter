@@ -53,3 +53,10 @@
 - Set
 - Sehirler
 - Ortalama Hesaplama 
+
+# 8.Gün
+- Fonksiyonlar
+- Fonksiyon Tanımlama
+- Fonksiyon Çağırma
+- Parametreli ve Parametresiz Fonksiyonlar
+- Fonksiyonların Kısa Gösterimi (Fat Arrow)
