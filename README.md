@@ -60,3 +60,10 @@
 - Fonksiyon Çağırma
 - Parametreli ve Parametresiz Fonksiyonlar
 - Fonksiyonların Kısa Gösterimi (Fat Arrow)
+
+
+# 9.Gün
+- Class ve Nesne Kavramları
+- Class Tanımlama
+- Araba Analojisi
+- Otobüs Analojisi
