@@ -67,3 +67,20 @@
 - Class Tanımlama
 - Araba Analojisi
 - Otobüs Analojisi
+
+
+# 10.Gün
+- Sıcaklık Dönüştürücü
+- Çevre Hesaplama
+- Faktöriyel Hesaplama
+- Kelime Adet Hesaplama
+- İç Açı Toplamı Hesaplama
+- Maaş Hesaplama
+- İnternet Hesaplama
+
+# 11.Gün
+- Null Safety
+- Null Safety Kullanımı
+     - ?
+     - !
+- late Kullanımı
