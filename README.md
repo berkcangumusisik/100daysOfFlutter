@@ -84,3 +84,12 @@
      - ?
      - !
 - late Kullanımı
+
+
+# 12.Gün
+- Constructor Kavramı
+- Constructor Tanımlama
+- Constructor Kullanımı
+- Kurucu Metotlar
+- this Anahtar Kelimesi
+- factory Constructor
