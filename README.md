@@ -93,3 +93,11 @@
 - Kurucu Metotlar
 - this Anahtar Kelimesi
 - factory Constructor
+
+
+# 13.Gün
+- Erişim Belirleyiciler
+- Kalıtım(Inheritance)
+- Kalıtım Kullanımı
+- super Anahtar Kelimesi
+--
