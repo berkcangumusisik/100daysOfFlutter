@@ -100,4 +100,10 @@
 - Kalıtım(Inheritance)
 - Kalıtım Kullanımı
 - super Anahtar Kelimesi
---
+
+# 14. Gün
+- Interface
+- Implements 
+- Enum 
+- İleri Seviye Class Kavramları
+- Custom Operator Yazmak
