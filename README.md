@@ -107,3 +107,8 @@
 - Enum 
 - İleri Seviye Class Kavramları
 - Custom Operator Yazmak
+
+# 15. Gün
+- Dart ile OOP
+- Dart İleri Seviye İşlemler
+- Dart Programlama Dili Tamamlandı
