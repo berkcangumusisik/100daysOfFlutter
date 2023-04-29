@@ -112,3 +112,17 @@
 - Dart ile OOP
 - Dart İleri Seviye İşlemler
 - Dart Programlama Dili Tamamlandı
+
+# FLUTTER
+# 16. Gün
+- Flutter Nedir?
+- Flutter Kurulumu
+- Flutter ile Yeni Proje Oluşturma
+
+# 17. Gün
+- Text Widget'ı
+- Text Widget'ı Özellikleri
+- Center Widget'ı
+- Scaffold Widget'ı
+
+
