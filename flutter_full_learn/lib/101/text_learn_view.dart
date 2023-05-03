@@ -1,32 +1,64 @@
 import 'package:flutter/material.dart';
 
 class TextLearnView extends StatelessWidget {
-  const TextLearnView({Key? key}) : super(key: key);
+  TextLearnView({Key? key, this.userName}) : super(key: key);
   final String name = "Berkcan";
+  final String? userName;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text(
-          "Welcome $name ${name.length}",
-          maxLines: 2,
-          overflow: TextOverflow.ellipsis,
-          textAlign: TextAlign.center,
-          style: const TextStyle(
-            decoration: TextDecoration.underline,
-            fontStyle: FontStyle.italic,
-            color: Colors.limeAccent,
-            fontSize: 30,
-            wordSpacing: 2,
-            letterSpacing: 2,
-            fontWeight: FontWeight.bold,
-          ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              "Welcome $name ${name.length}",
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
+              textAlign: TextAlign.center,
+              style: ProjectStyles.welcomeStyle,
+            ),
+            Text(
+              "Hello $name ${name.length}",
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
+              textAlign: TextAlign.center,
+              style: ProjectStyles.welcomeStyle,
+            ),
+            Text(
+              "Hello $name ${name.length}",
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
+              textAlign: TextAlign.center,
+              style: Theme.of(context)
+                  .textTheme
+                  .headline6
+                  ?.copyWith(color: ProjectColors.welcomeColor),
+            ),
+            Text(userName ?? ''),
+          ],
         ),
       ),
     );
   }
 }
 
+class ProjectStyles {
+  static TextStyle welcomeStyle = TextStyle(
+    decoration: TextDecoration.underline,
+    fontStyle: FontStyle.italic,
+    color: Colors.limeAccent,
+    fontSize: 30,
+    wordSpacing: 2,
+    letterSpacing: 2,
+    fontWeight: FontWeight.bold,
+  );
+}
+
+class ProjectColors {
+  static Color welcomeColor = Colors.red;
+}
 /**
  * Sayfanın gücü bize Material ile geliyor. Bunun için birçok yol var ama biz burada Scaffold widget'ını kullanıyoruz.
  * Scaffold widget'ının içerisine bir çok widget'ı ekleyebiliriz.

@@ -126,3 +126,8 @@
 - Scaffold Widget'ı
 
 
+# 18. Gün
+- Container Widget'ı
+- Container Widget'ı Özellikleri
+- Scaffold Widget'ı Özellikleri
+- SizedBox Widget'ı

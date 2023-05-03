@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_full_learn/101/text_learn_view.dart';
+import 'package:flutter_full_learn/scaffold_learn_view.dart';
+
+import '101/container_sized_box_learn_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,8 +16,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false, // Debug yazısını kaldırır.
       theme: ThemeData.dark(),
-      home: TextLearnView(),
+      home: ScaffoldLearn(),
     );
   }
 }
@@ -43,4 +47,6 @@ class MyApp extends StatelessWidget {
  * lib klasöründe gerekli kodlar yazılır.
  * pubspec.yaml dosyasında proje için gerekli eklentiler veya bileşenleri belirtiriz. pub.dev üzerinden eklentileri indirmek için kullanılır.
  * proje main() fonksiyonu içerisinde çalıştırılır.
+ * 
+ ** Material App bizlere birçok widget'ı kullanma imkanı sunar. Projenin yaşam döngüsünü yönetir.
  */
