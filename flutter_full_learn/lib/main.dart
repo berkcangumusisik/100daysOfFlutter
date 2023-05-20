@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_full_learn/101/text_learn_view.dart';
-import 'package:flutter_full_learn/scaffold_learn_view.dart';
+import 'package:flutter_full_learn/101/scaffold_learn_view.dart';
 
+import '101/button_learn_view.dart';
 import '101/container_sized_box_learn_view.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false, // Debug yazısını kaldırır.
       theme: ThemeData.dark(),
-      home: ScaffoldLearn(),
+      home: ButtonLearn(),
     );
   }
 }
