@@ -119,3 +119,10 @@
 - Flutter Kurulumu
 - Flutter ile Yeni Proje Oluşturma
 - Flutter projesinde dosyalar ve klasörler
+
+# 17. Gün
+- MaterailApp Widget'i
+- Scaffold Widget'i ve Özellikleri
+- Text Widget'i ve Özellikleri
+- Column Widget'i
+- SizedBox Widget'i
