@@ -126,3 +126,10 @@
 - Text Widget'i ve Özellikleri
 - Column Widget'i
 - SizedBox Widget'i
+
+
+# 18. Gün
+- Butonlar
+- AppBar 
+- Iconlar
+- Renkler
