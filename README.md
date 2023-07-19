@@ -133,3 +133,12 @@
 - AppBar 
 - Iconlar
 - Renkler
+
+# 19. Gün
+- Stateles Widget
+
+
+# 20. Gün
+- Card Widget
+- Padding Widget
+
