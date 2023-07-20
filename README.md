@@ -146,7 +146,9 @@
 # 21. Gün 
 - Image Widget
 - Note Demos Uygulaması
-<br>
+
+
+
 ![Ekran görüntüsü 2023-07-20 102600](https://github.com/berkcangumusisik/100daysOfFlutter/assets/75336900/08ef1b45-a3b6-4731-8522-04d0288a016d)
 
   
