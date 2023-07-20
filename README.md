@@ -142,3 +142,8 @@
 - Card Widget
 - Padding Widget
 
+
+# 21. Gün 
+- Image Widget
+- Note Demos Uygulaması
+

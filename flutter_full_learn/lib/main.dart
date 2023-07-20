@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '101/image_learn_view.dart';
+import 'package:flutter_full_learn/demos/note_demos_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,12 +14,12 @@ class MyApp extends StatelessWidget {
       title: 'Flutter ',
       theme: ThemeData.dark().copyWith(
         appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.transparent,
           centerTitle: true,
           elevation: 0,
         ),
       ),
-      home: ImageLearnView(),
+      home: NoteDemos(),
       debugShowCheckedModeBanner: false,
     );
   }
