@@ -147,3 +147,7 @@
 - Image Widget
 - Note Demos Uygulaması
 
+# 22.Gün
+- Özel Widget Oluşturma 
+- Kendi Widget'ımızı Oluşturma
+- İndikatör Widget'ı

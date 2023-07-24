@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_full_learn/demos/note_demos_view.dart';
+import 'package:flutter_full_learn/101/indicator_learn_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
           elevation: 0,
         ),
       ),
-      home: NoteDemos(),
+      home: IndicatorLearnView(),
       debugShowCheckedModeBanner: false,
     );
   }
