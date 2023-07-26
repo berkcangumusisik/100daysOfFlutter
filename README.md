@@ -156,3 +156,7 @@
 - Özel Widget Oluşturma 
 - Kendi Widget'ımızı Oluşturma
 - İndikatör Widget'ı
+
+# 23.Gün
+- ListTile Widget'ı
+- Özel Widget Oluşturma
