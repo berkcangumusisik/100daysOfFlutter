@@ -160,3 +160,9 @@
 # 23.Gün
 - ListTile Widget'ı
 - Özel Widget Oluşturma
+
+# 24.Gün
+- Column ve Row Widget'ı
+- Expanded Widget'ı
+- Spacer Widget'ı
+- Stack Widget'ı
