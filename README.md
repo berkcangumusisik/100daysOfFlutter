@@ -174,3 +174,15 @@
 - Statefull Widget
 - Counter App
 - setState
+
+# 26.Gün
+- PageView Widget
+- LifeCycle
+  * initState
+  * didChangeDependencies
+  * didUpdateWidget
+  * dispose
+
+
+# 27.Gün
+- Textfield Widget'ı

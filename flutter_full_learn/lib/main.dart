@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_full_learn/101/statefull_learn_view.dart';
-import 'package:flutter_full_learn/demos/stack_demos_view.dart';
+import 'package:flutter_full_learn/101/text_field_learn_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +19,7 @@ class MyApp extends StatelessWidget {
           elevation: 0,
         ),
       ),
-      home: StatefullLearnView(),
+      home: TextFieldLearn(),
       debugShowCheckedModeBanner: false,
     );
   }
