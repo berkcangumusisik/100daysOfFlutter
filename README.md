@@ -186,3 +186,8 @@
 
 # 27.Gün
 - Textfield Widget'ı
+
+# 28.Gün
+- Demo Color Statefull
+- Demo LifeCycle
+- Debug
