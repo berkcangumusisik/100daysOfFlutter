@@ -191,3 +191,9 @@
 - Demo Color Statefull
 - Demo LifeCycle
 - Debug
+
+# 29.Gün 
+- Zar Atma Oyunu
+- ListView Widget'ı
+- ListView.builder
+- ListView.separated
