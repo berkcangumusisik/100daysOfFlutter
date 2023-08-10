@@ -194,6 +194,8 @@
 
 # 29.Gün 
 - Zar Atma Oyunu
+
+![Ekran görüntüsü 2023-08-10 085726](https://github.com/berkcangumusisik/100daysOfFlutter/assets/75336900/2adaf798-2a12-44c3-99d7-bdf876adef35)
 - ListView Widget'ı
 - ListView.builder
 - ListView.separated
