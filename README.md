@@ -199,3 +199,8 @@
 - ListView Widget'ı
 - ListView.builder
 - ListView.separated
+
+
+# 30.Gün
+- ListViewBuilder Uygulaması
+- Sayfalar arası geçiş işlemlerine başlandı.
