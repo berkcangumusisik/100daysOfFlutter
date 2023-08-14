@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_full_learn/101/navigation_learn_view.dart';
-import 'package:flutter_full_learn/demos/my_collections_demo.dart';
+import 'package:flutter_full_learn/202/tab_learn_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,13 +13,20 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter ',
       theme: ThemeData.dark().copyWith(
+        tabBarTheme: const TabBarTheme(
+          indicatorColor: Colors.white,
+          labelColor: Colors.red,
+          unselectedLabelColor: Colors.grey,
+        ),
+        bottomAppBarTheme:
+            const BottomAppBarTheme(shape: CircularNotchedRectangle()),
         appBarTheme: const AppBarTheme(
           backgroundColor: Colors.transparent,
           centerTitle: true,
           elevation: 0,
         ),
       ),
-      home: NavigationLearn(),
+      home: TabLearn(),
       debugShowCheckedModeBanner: false,
     );
   }

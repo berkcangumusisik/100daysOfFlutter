@@ -203,4 +203,8 @@
 
 # 30.Gün
 - ListViewBuilder Uygulaması
-- Sayfalar arası geçiş işlemlerine başlandı.
+- Navigation.push
+
+# 31.Gün
+- Navigation.pop
+- TabBar
