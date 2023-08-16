@@ -208,3 +208,7 @@
 # 31.Gün
 - Navigation.pop
 - TabBar
+
+# 32. Gün
+- Model 
+- Model Kullanımı
