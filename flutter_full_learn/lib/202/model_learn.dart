@@ -116,3 +116,12 @@ class PostModel8 {
     );
   }
 }
+
+
+/**
+ * Get Request : Veri çekmek için kullanılır.
+ * Post Request : Veri göndermek için kullanılır.
+ * Put Request : Veri güncellemek için kullanılır.
+ * Delete Request : Veri silmek için kullanılır.
+ * 
+ */

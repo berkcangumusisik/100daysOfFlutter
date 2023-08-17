@@ -212,3 +212,10 @@
 # 32. Gün
 - Model 
 - Model Kullanımı
+
+
+# 33.Gün
+- Servis Kullanımı
+- Postman
+- Model Oluşturma
+- Servisten Veri Çekme
