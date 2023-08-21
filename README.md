@@ -219,3 +219,7 @@
 - Postman
 - Model Oluşturma
 - Servisten Veri Çekme
+
+# 34.Gün
+- Servise Veri Gönderme
+- Try Catch
