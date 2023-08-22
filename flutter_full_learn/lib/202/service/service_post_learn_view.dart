@@ -9,10 +9,10 @@ class ServicePostLearn extends StatefulWidget {
   const ServicePostLearn({Key? key}) : super(key: key);
 
   @override
-  State<ServicePostLearn> createState() => _ServicePostLearn();
+  State<ServicePostLearn> createState() => _ServiceLearnState();
 }
 
-class _ServicePostLearn extends State<ServicePostLearn> {
+class _ServiceLearnState extends State<ServicePostLearn> {
   String? name;
   bool _isLoading = false;
   late final Dio _dio;

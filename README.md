@@ -223,3 +223,8 @@
 # 34.Gün
 - Servise Veri Gönderme
 - Try Catch
+
+# 35.Gün
+- Hata Yönetimi
+- Güncelleme İşlemi
+- Silme İşlemi
