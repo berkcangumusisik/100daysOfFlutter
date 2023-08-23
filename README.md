@@ -228,3 +228,9 @@
 - Hata Yönetimi
 - Güncelleme İşlemi
 - Silme İşlemi
+
+# 36.Gün
+- Paket Kullanımı
+- Pub.dev Paket Kullanımı
+- Mixin Kullanımı
+- Paketlerde Nelere Dikkat Edilmeli

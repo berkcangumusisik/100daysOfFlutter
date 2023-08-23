@@ -51,6 +51,9 @@ dev_dependencies:
   shimmer: ^3.0.0
   # Animation 
   flutter_spinkit: ^5.2.0
+  #Google
+  url_launcher: ^6.1.12
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
