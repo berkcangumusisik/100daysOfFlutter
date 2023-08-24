@@ -234,3 +234,7 @@
 - Pub.dev Paket Kullanımı
 - Mixin Kullanımı
 - Paketlerde Nelere Dikkat Edilmeli
+
+# 37.Gün
+- Tema Kullanımı
+- Tema Hazırlama
