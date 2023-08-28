@@ -238,3 +238,7 @@
 # 37.Gün
 - Tema Kullanımı
 - Tema Hazırlama
+
+# 38.Gün
+- Resimlerin daha güçlü kullanımı
+- Animasyon İşlemleri
