@@ -242,3 +242,8 @@
 # 38.Gün
 - Resimlerin daha güçlü kullanımı
 - Animasyon İşlemleri
+
+# 39.Gün
+- OOP ile Flutter Kullanımı
+- Form İşlemleri
+
