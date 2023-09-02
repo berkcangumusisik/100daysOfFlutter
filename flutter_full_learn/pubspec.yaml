@@ -53,6 +53,7 @@ dev_dependencies:
   flutter_spinkit: ^5.2.0
   #Google
   url_launcher: ^6.1.12
+  shared_preferences: ^2.2.1
 
 
 # For information on the generic Dart part of this file, see the
