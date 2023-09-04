@@ -252,3 +252,6 @@
 - Shared Preferences ile Veri Kaydetme
 - Shared Preferences ile Veri Okuma
 - Shared Preferences ile Veri Silme
+
+# 41. Gün
+- Shared Preferences Çalışması Tamamlandı.
