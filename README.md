@@ -255,3 +255,6 @@
 
 # 41. Gün
 - Shared Preferences Çalışması Tamamlandı.
+
+# 42. Gün
+- Secure Storage Kullanımı Part 1

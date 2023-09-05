@@ -54,6 +54,7 @@ dev_dependencies:
   #Google
   url_launcher: ^6.1.12
   shared_preferences: ^2.2.1
+  flutter_secure_storage: ^9.0.0
 
 
 # For information on the generic Dart part of this file, see the

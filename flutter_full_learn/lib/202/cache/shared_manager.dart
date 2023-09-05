@@ -25,6 +25,16 @@ class SharedManager {
     return preferences?.getString(key.name);
   }
 
+  List<String>? getStrings(SharedKeys key) {
+    _checkPrefences();
+    return preferences?.getStringList(key.name);
+  }
+
+  Future<void> saveStringItems(SharedKeys key, List<String> value) async {
+    _checkPrefences();
+    await preferences?.setStringList(key.name, value);
+  }
+
   Future<bool> removeItem(SharedKeys key) async {
     _checkPrefences();
     return (await preferences?.remove(key.name)) ?? false;
