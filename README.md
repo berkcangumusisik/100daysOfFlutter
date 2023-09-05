@@ -258,3 +258,6 @@
 
 # 42. Gün
 - Secure Storage Kullanımı Part 1
+
+# 43. Gün
+- Cashing Kullanımı Tamamlandı
