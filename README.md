@@ -264,3 +264,6 @@
 
 # 44. Gün
 - Sheet Component Kullanımı
+
+# 45. Gün
+- Dialog Kullanımı 
