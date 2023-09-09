@@ -23,21 +23,21 @@ class UserManagement<T extends AdminUser> {
     return _monney;
   }
 
-  Iterable<VBModel<R>>? showNames<R>(List<GenericUser> users) {
+  Iterable<ABModel<R>>? showNames<R>(List<GenericUser> users) {
     if (R == String) {
       final names =
-          users.map((e) => VBModel<R>(e.name.split('').toList().cast<R>()));
+          users.map((e) => ABModel<R>(e.name.split('').toList().cast<R>()));
       return names;
     }
     return null;
   }
 }
 
-class VBModel<T> {
-  final String name = 'vb';
+class ABModel<T> {
+  final String name = 'ab';
   final List<T> items;
 
-  VBModel(this.items);
+  ABModel(this.items);
 }
 
 class GenericUser extends Equatable {
