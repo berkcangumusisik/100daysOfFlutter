@@ -267,3 +267,7 @@
 
 # 45. Gün
 - Dialog Kullanımı 
+
+# 46. Gün
+- Generic Kullanımı
+- Flutter Test Kullanımı
