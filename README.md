@@ -271,3 +271,7 @@
 # 46. Gün
 - Generic Kullanımı
 - Flutter Test Kullanımı
+
+# 47. Gün
+- Part - Part of Kullanımı
+- Callback Kullanımı
