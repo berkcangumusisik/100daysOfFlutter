@@ -275,3 +275,9 @@
 # 47. Gün
 - Part - Part of Kullanımı
 - Callback Kullanımı
+
+# 48. Gün
+- Atomic Widget (callback_dropdown)
+- Atomic Widget (Button)
+- Atomic Widget (LoadingButton)
+- İleri Seviye Tabbar Kullanımı

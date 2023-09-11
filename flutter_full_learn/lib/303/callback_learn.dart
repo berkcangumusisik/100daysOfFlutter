@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_full_learn/product/callback_dropdown.dart';
+import 'package:flutter_full_learn/product/widget/button/answer_button.dart';
+import 'package:flutter_full_learn/product/widget/button/loading_button.dart';
 
 class CallBackLearn extends StatefulWidget {
   const CallBackLearn({super.key});
@@ -8,30 +11,28 @@ class CallBackLearn extends StatefulWidget {
 }
 
 class _CallBackLearnState extends State<CallBackLearn> {
-  CallBackUser? _user;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
       body: Column(
         children: [
-          DropdownButton<CallBackUser>(
-            value: _user,
-            items: CallBackUser.dummyUsers().map((e) {
-              return DropdownMenuItem(
-                child: Text(
-                  e.name,
-                  style: Theme.of(context).textTheme.headlineMedium,
-                ),
-                value: e,
-              );
-            }).toList(),
-            onChanged: (CallBackUser? callbackuser) {
-              setState(() {
-                _user = callbackuser;
-              });
+          CallBackDropdown(onUserSelected: (CallBackUser user) {
+            print(user);
+          }),
+          AnswerButton(
+            onNumber: (number) {
+              return number % 2 == 0;
             },
-          )
+          ),
+          LoadingButton(
+            title: "Kaydet",
+            onPressed: () async {
+              Future.delayed(
+                await Duration(seconds: 1),
+              );
+            },
+          ),
         ],
       ),
     );
