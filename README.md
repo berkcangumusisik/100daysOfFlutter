@@ -281,3 +281,7 @@
 - Atomic Widget (Button)
 - Atomic Widget (LoadingButton)
 - İleri Seviye Tabbar Kullanımı
+
+# 49. Gün
+- Dosyalama İşlemlerine Giriş
+- Postman ile API Kullanımı
