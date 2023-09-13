@@ -30,6 +30,7 @@ class Data {
 
   Data({this.id, this.name, this.year, this.color, this.pantoneValue});
 
+
   Data.fromJson(Map<String, dynamic> json) {
     id = json['id'];
     name = json['name'];

@@ -285,3 +285,8 @@
 # 49. Gün
 - Dosyalama İşlemlerine Giriş
 - Postman ile API Kullanımı
+
+# 50. Gün
+- Dosyalama İşlemleri 
+- Extension Kullanımı
+- Provider Paketi Kurulumu
