@@ -1,51 +1,65 @@
+import 'package:equatable/equatable.dart';
+import 'package:json_annotation/json_annotation.dart';
+
+part 'resource_model.g.dart';
+
+String _fetchCustom(String? data) {
+  return 'aa';
+}
+
+@JsonSerializable()
 class ResourceModel {
   List<Data>? data;
 
   ResourceModel({this.data});
 
-  ResourceModel.fromJson(Map<String, dynamic> json) {
-    if (json['data'] != null) {
-      data = <Data>[];
-      json['data'].forEach((v) {
-        data!.add(new Data.fromJson(v));
-      });
-    }
+  factory ResourceModel.fromJson(Map<String, dynamic> json) {
+    return _$ResourceModelFromJson(json);
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    if (this.data != null) {
-      data['data'] = this.data!.map((v) => v.toJson()).toList();
-    }
-    return data;
+    return _$ResourceModelToJson(this);
   }
 }
 
-class Data {
-  int? id;
-  String? name;
-  int? year;
-  String? color;
-  String? pantoneValue;
+@JsonSerializable()
+class Data extends Equatable {
+  final int? id;
+  final String? name;
+  final int? year;
+  // @JsonKey(name: 'renk')
+  final String? color;
+  @JsonKey(fromJson: _fetchCustom)
+  final String? pantoneValue;
+  final String? price;
+  final StatusCode? status;
 
-  Data({this.id, this.name, this.year, this.color, this.pantoneValue});
+  const Data(
+      {this.id,
+      this.status,
+      this.name,
+      this.year,
+      this.color,
+      this.pantoneValue,
+      this.price});
 
-
-  Data.fromJson(Map<String, dynamic> json) {
-    id = json['id'];
-    name = json['name'];
-    year = json['year'];
-    color = json['color'];
-    pantoneValue = json['pantone_value'];
+  factory Data.fromJson(Map<String, dynamic> json) {
+    return _$DataFromJson(json);
   }
 
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['id'] = this.id;
-    data['name'] = this.name;
-    data['year'] = this.year;
-    data['color'] = this.color;
-    data['pantone_value'] = this.pantoneValue;
-    return data;
-  }
+  @override
+  List<Object?> get props => [id, name, price];
 }
+
+enum StatusCode {
+  @JsonValue(200)
+  success,
+  @JsonValue(500)
+  weird,
+}
+
+/*
+JsonSerializable() : Bu sınıfın json olarak kullanılacağını belirtir. 
+@JsonEnum() : Bu sınıfın enum olarak kullanılacağını belirtir.
+@JsonValue() : Bu sınıfın json olarak kullanılacağını belirtir. 
+*/

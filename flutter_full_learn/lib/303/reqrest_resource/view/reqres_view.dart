@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_full_learn/202/image_learn_202.dart';
 import 'package:flutter_full_learn/303/reqrest_resource/model/resource_model.dart';
 import 'package:flutter_full_learn/303/reqrest_resource/service/reqres_service.dart';
 import 'package:flutter_full_learn/303/reqrest_resource/viewModel/reqres_provider.dart';
 import 'package:flutter_full_learn/product/extension/string_extension.dart';
+import 'package:flutter_full_learn/product/global/resource_context.dart';
 import 'package:flutter_full_learn/product/global/theme_notifier.dart';
 import 'package:flutter_full_learn/product/service/project_dio.dart';
-
-// ignore: depend_on_referenced_packages
 import 'package:provider/provider.dart';
 
 class ReqResView extends StatefulWidget {
@@ -35,6 +35,9 @@ class _ReqResViewState extends State<ReqResView> with ProjectDioMixin {
             },
           ),
           appBar: AppBar(
+              actions: [
+                _SaveAndNavigate(context)
+              ],
               title: context.watch<ReqResProvider>().isLoading
                   ? const CircularProgressIndicator(color: Colors.white)
                   : null),
@@ -49,6 +52,20 @@ class _ReqResViewState extends State<ReqResView> with ProjectDioMixin {
         );
       },
     );
+  }
+
+  ElevatedButton _SaveAndNavigate(BuildContext context) {
+    return ElevatedButton(
+                  onPressed: () {
+                    context
+                        .read<ReqResProvider>()
+                        .saveToLocale(context.read<ResourceContext>());
+                    Navigator.of(context)
+                        .push(MaterialPageRoute(builder: (_) {
+                      return ImageLearn202();
+                    }));
+                  },
+                  child: Icon(Icons.add));
   }
 
   ListView _resourceListview(BuildContext context, List<Data> items) {

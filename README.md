@@ -293,3 +293,9 @@
 
 # 51. Gün
 - Provider Paketi ile İlgili İşlemler Part 1
+
+# 52. Gün
+- Provider İşlemleri Part 2
+- Json Serialization Kullanımı
+- Build Runner 
+- Equatable Kullanımı
