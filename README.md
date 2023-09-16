@@ -299,3 +299,7 @@
 - Json Serialization Kullanımı
 - Build Runner 
 - Equatable Kullanımı
+
+# 53. Gün
+- Lottie Animasyon Kullanımı
+- 
