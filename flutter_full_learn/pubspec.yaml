@@ -49,7 +49,11 @@ dependencies:
   #Cache
   shared_preferences: ^2.2.1
   flutter_secure_storage: ^9.0.0
+
+  #Core 
+  collection: any
   equatable: ^2.0.5
+
   #States
   provider: ^6.0.2
   

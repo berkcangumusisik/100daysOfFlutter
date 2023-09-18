@@ -3,6 +3,7 @@ import 'package:flutter_full_learn/303/reqrest_resource/model/resource_model.dar
 import 'package:flutter_full_learn/303/reqrest_resource/service/reqres_service.dart';
 import 'package:flutter_full_learn/303/reqrest_resource/view/reqres_view.dart';
 import 'package:flutter_full_learn/product/service/project_dio.dart';
+import 'package:flutter_full_learn/product/service/project_network_manager.dart';
 
 abstract class ReqressViewModel extends LoadingStatefull<ReqResView>
     with ProjectDioMixin {
@@ -11,7 +12,8 @@ abstract class ReqressViewModel extends LoadingStatefull<ReqResView>
   @override
   void initState() {
     super.initState();
-    reqresService = ReqresServie(service);
+    reqresService = ReqresServie(ProjectNetworkManager.instance.service);
+    ProjectNetworkManager.instance.addBaseHeader("Berkcan");
     _fetch();
   }
 
@@ -20,6 +22,4 @@ abstract class ReqressViewModel extends LoadingStatefull<ReqResView>
     resources = (await reqresService.fetchResourceItem())?.data ?? [];
     changeLoading();
   }
-
-  
 }

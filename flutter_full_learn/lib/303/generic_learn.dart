@@ -47,6 +47,7 @@ class GenericUser extends Equatable {
 
   const GenericUser(this.name, this.id, this.money);
 
+
   bool findUserName(String name) {
     return this.name == name;
   }

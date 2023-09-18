@@ -302,4 +302,7 @@
 
 # 53. Gün
 - Lottie Animasyon Kullanımı
-- 
+
+# 54. Gün
+- Singleation
+- Test
