@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_full_learn/303/lottie_learn.dart';
 import 'package:flutter_full_learn/product/global/resource_context.dart';
 import 'package:flutter_full_learn/product/global/theme_notifier.dart';
+import 'package:flutter_full_learn/product/navigator/navigator_routes.dart';
 import "package:provider/provider.dart";
 
 void main() {
@@ -37,7 +38,14 @@ class MyApp extends StatelessWidget {
       //     elevation: 0,
       //   ),
       // ),
-      home: LottieLearn(),
+
+      routes: NavigatorRoutes().items,
+      onUnknownRoute: ((settings) {
+        return MaterialPageRoute(builder: (context) {
+          return LottieLearn();
+        });
+      }),
+      //home: LottieLearn(),
       debugShowCheckedModeBanner: false,
     );
   }
@@ -62,4 +70,6 @@ Flutter
 - home: Uygulamamızın ana sayfasını belirler.
 - debugShowCheckedModeBanner: Debug modunda uygulamamızın sağ üst köşesindeki debug yazısını kaldırır.
 - Projede 1 tane MaterialApp widget'ı olur.
+- routes: Uygulamamızın sayfalarını yönetmemizi sağlar. / sayfa adı, (context) => Sayfa() sayfa yönlendirmesi yapılır
+
 */

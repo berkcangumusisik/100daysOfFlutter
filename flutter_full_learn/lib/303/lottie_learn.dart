@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_full_learn/product/constant/duration_items.dart';
 import 'package:flutter_full_learn/product/constant/lottie_items.dart';
 import 'package:flutter_full_learn/product/global/theme_notifier.dart';
+import 'package:flutter_full_learn/product/navigator/navigator_routes.dart';
 import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
 
@@ -22,6 +23,17 @@ class _LottieLearnState extends State<LottieLearn>
     super.initState();
     controller = AnimationController(
         vsync: this, duration: DurationItems.durationNormal());
+    navigateToHome();
+  }
+
+  Future<void> navigateToHome() async {
+    await Future.delayed(
+      Duration(seconds: 2),
+    );
+    Navigator.pushNamed(
+        context,
+        NavigateRoutes.home
+            .withParaf); //pushnamed() : Bu metot ile bir sayfaya geçiş yapabiliriz.
   }
 
   @override
