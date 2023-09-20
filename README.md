@@ -309,3 +309,7 @@
 
 # 55. Gün
 - Route İşlemleri
+
+# 56.Gün
+- onGenerateRoute() Kullanımı
+- Gelişmiş Route İşlemleri
