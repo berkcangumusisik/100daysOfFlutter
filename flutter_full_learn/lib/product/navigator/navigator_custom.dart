@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_full_learn/303/lottie_learn.dart';
+import 'package:flutter_full_learn/303/mobx_image_picker/view/mobx_image_upload.dart';
 import 'package:flutter_full_learn/303/navigator/navigate_home_detaill.dart';
 import 'package:flutter_full_learn/303/navigator/navigate_home_view.dart';
 import 'package:flutter_full_learn/main.dart';
@@ -17,7 +18,7 @@ mixin NavigatorCustom<T extends MyApp> on Widget {
 
     switch (_routes) {
       case NavigateRoutes.init:
-        return _navigateToNormal(const LottieLearn());
+        return _navigateToNormal(const MobxImageUploadView());
       case NavigateRoutes.home:
         return _navigateToNormal(const NavigateHomeView());
       case NavigateRoutes.detail:

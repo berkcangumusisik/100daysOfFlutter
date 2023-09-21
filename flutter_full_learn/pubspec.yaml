@@ -45,6 +45,7 @@ dependencies:
   url_launcher: ^6.1.12
   json_serializable: ^6.7.1
   json_annotation: ^4.8.1 
+  image_picker: ^1.0.4
 
   #Cache
   shared_preferences: ^2.2.1
@@ -56,6 +57,8 @@ dependencies:
 
   #States
   provider: ^6.0.2
+  flutter_mobx: ^2.0.6+5
+  mobx_codegen: ^2.4.0
   
 
 dev_dependencies:

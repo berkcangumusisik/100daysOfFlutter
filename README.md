@@ -313,3 +313,8 @@
 # 56.Gün
 - onGenerateRoute() Kullanımı
 - Gelişmiş Route İşlemleri
+
+
+# 57.Gün
+- ImagePicker Kullanımı
+- Mobx Kullanımı

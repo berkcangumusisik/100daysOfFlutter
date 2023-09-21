@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_full_learn/303/lottie_learn.dart';
+import 'package:flutter_full_learn/303/mobx_image_picker/view/mobx_image_upload.dart';
 import 'package:flutter_full_learn/product/global/resource_context.dart';
 import 'package:flutter_full_learn/product/global/theme_notifier.dart';
 import 'package:flutter_full_learn/product/navigator/navigator_custom.dart';
-import 'package:flutter_full_learn/product/navigator/navigator_routes.dart';
 import "package:provider/provider.dart";
 
 void main() {
@@ -40,14 +39,14 @@ class MyApp extends StatelessWidget with NavigatorCustom {
       //   ),
       // ),
 
-      routes: NavigatorRoutes().items,
-      onUnknownRoute: ((settings) {
-        return MaterialPageRoute(builder: (context) {
-          return LottieLearn();
-        });
-      }),
-      onGenerateRoute: onGenerateRoute,
-      //home: LottieLearn(),
+      // routes: NavigatorRoutes().items,
+      // onUnknownRoute: ((settings) {
+      //   return MaterialPageRoute(builder: (context) {
+      //     return LottieLearn();
+      //   });
+      // }),
+      // onGenerateRoute: onGenerateRoute,
+      home: MobxImageUploadView(),
       debugShowCheckedModeBanner: false,
     );
   }
