@@ -28,7 +28,8 @@ class ReqResProvider extends ChangeNotifier {
     return (await reqresService.fetchResourceItem())?.data ?? [];
   }
 
-  void saveToLocale(ResourceContext resourceContext) {
+  bool? saveToLocale(ResourceContext resourceContext, List list) {
     resourceContext.saveModel(ResourceModel(data: resources));
+    return resourceContext.model?.data?.isNotEmpty;
   }
 }

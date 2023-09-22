@@ -59,6 +59,10 @@ dependencies:
   provider: ^6.0.2
   flutter_mobx: ^2.0.6+5
   mobx_codegen: ^2.4.0
+
+  #Context
+  kartal: ^3.4.2
+  vexana: ^3.5.4
   
 
 dev_dependencies:
@@ -67,6 +71,7 @@ dev_dependencies:
   # Koda dokunmuyor ama işini kolaylaştırıyor 
   flutter_lints: ^2.0.0
   build_runner: ^2.4.6
+  mockito: ^5.4.2
   
 
 

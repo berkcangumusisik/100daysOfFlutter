@@ -318,3 +318,10 @@
 # 57.Gün
 - ImagePicker Kullanımı
 - Mobx Kullanımı
+
+
+# 58.Gün
+- Testable
+- Mockito
+- Kartal
+- Vexana

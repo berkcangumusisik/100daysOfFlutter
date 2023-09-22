@@ -35,9 +35,7 @@ class _ReqResViewState extends State<ReqResView> with ProjectDioMixin {
             },
           ),
           appBar: AppBar(
-              actions: [
-                _SaveAndNavigate(context)
-              ],
+              actions: [_SaveAndNavigate(context)],
               title: context.watch<ReqResProvider>().isLoading
                   ? const CircularProgressIndicator(color: Colors.white)
                   : null),
@@ -56,16 +54,15 @@ class _ReqResViewState extends State<ReqResView> with ProjectDioMixin {
 
   ElevatedButton _SaveAndNavigate(BuildContext context) {
     return ElevatedButton(
-                  onPressed: () {
-                    context
-                        .read<ReqResProvider>()
-                        .saveToLocale(context.read<ResourceContext>());
-                    Navigator.of(context)
-                        .push(MaterialPageRoute(builder: (_) {
-                      return ImageLearn202();
-                    }));
-                  },
-                  child: Icon(Icons.add));
+        onPressed: () {
+          context
+              .read<ReqResProvider>()
+              .saveToLocale(context.read<ResourceContext>(), []);
+          Navigator.of(context).push(MaterialPageRoute(builder: (_) {
+            return ImageLearn202();
+          }));
+        },
+        child: Icon(Icons.add));
   }
 
   ListView _resourceListview(BuildContext context, List<Data> items) {
