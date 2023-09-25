@@ -31,40 +31,46 @@ dependencies:
   flutter:
     sdk: flutter
 
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
-  dio: ^5.3.2
-  http: ^1.1.0
-  shimmer: ^3.0.0
-  # Animation 
-  flutter_spinkit: ^5.2.0
-  lottie: ^2.6.0
-  #Google
-  url_launcher: ^6.1.12
-  json_serializable: ^6.7.1
-  json_annotation: ^4.8.1 
-  image_picker: ^1.0.4
-
-  #Cache
-  shared_preferences: ^2.2.1
-  flutter_secure_storage: ^9.0.0
-
-  #Core 
-  collection: any
-  equatable: ^2.0.5
-
-  #States
-  provider: ^6.0.2
-  flutter_mobx: ^2.0.6+5
-  mobx_codegen: ^2.4.0
-
-  #Context
-  kartal: ^3.4.2
+  shimmer: ^2.0.0
+  dio: ^4.0.4
 
   #Network
   vexana: ^2.8.0
+
+  #Cache
+  shared_preferences: ^2.0.13
+  flutter_secure_storage: ^5.0.2
+
+  #Google
+  url_launcher: ^6.0.20
+  image_picker: ^0.8.5
+  json_serializable: ^6.1.5
+  json_annotation: ^4.4.0
+
+  #Core
+  equatable: ^2.0.3
+  collection: any
+
+  #Context
+  kartal: ^2.3.1
+
+  #Animation
+  flutter_spinkit: ^5.1.0
+
+  #Localization
+  easy_localization: ^3.0.0
+
+  #States
+  provider: ^6.0.2
+  flutter_mobx: ^2.0.4
+  flutter_bloc: ^8.0.1
+
+  lottie: ^1.1.0
+
+  uikit:
+    path: module/uikit
+
+  
   
 
 dev_dependencies:

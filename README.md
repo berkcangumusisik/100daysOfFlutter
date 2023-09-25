@@ -325,3 +325,9 @@
 - Mockito
 - Kartal
 - Vexana
+
+# 59.Gün
+- Bloc Kullanımı
+- Snippet Kullanımı
+- Localizasyon Kullanımı
+
