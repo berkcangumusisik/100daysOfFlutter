@@ -331,3 +331,9 @@
 - Snippet Kullanımı
 - Localizasyon Kullanımı
 
+# FLUTTER TEKRARLARI 
+# 60.Gün
+- Widget nedir?
+- MaterialApp nedir?
+- Scaffold
+- FloatingActionButton
