@@ -337,3 +337,8 @@
 - MaterialApp nedir?
 - Scaffold
 - FloatingActionButton
+
+# 61.Gün
+- Container
+- Box Decoration
+- Center

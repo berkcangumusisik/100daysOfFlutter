@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_full_summary/widgets/scaffold_widget.dart';
+import 'package:flutter_full_summary/widgets/container_box_decoration.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,10 +11,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-        primaryColor: Colors.red,
-      ),
-      home: const ScaffoldLearn(),
+      theme: ThemeData(),
+      home: const BoxDecorationLearn(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
