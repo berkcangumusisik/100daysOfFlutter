@@ -348,3 +348,9 @@
 - Column
 - Expanded
 - Flexible
+
+# 63.Gün
+- Statefull Widget
+- Statefull Widget Yaşam Döngüsü
+- Hot Reload
+- Hot Restart

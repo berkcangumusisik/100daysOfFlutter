@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_full_summary/widgets/expanded_learn.dart';
+import 'package:flutter_full_summary/widgets/row_column_learn.dart';
+import 'package:flutter_full_summary/widgets/statefull_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(),
-      home: const ExpandedLearn(),
+      home: const StatefullLearn(),
       debugShowCheckedModeBanner: false,
     );
   }
@@ -33,4 +35,9 @@ class MyApp extends StatelessWidget {
  * } ile uygulamamızı çalıştırıyoruz.
  
  MaterialApp() : Uygulamamızın temel widget'ıdır. MaterialApp() widget'ı, uygulamamızın temel tasarımını oluşturur.
+
+
+ hotReload : Uygulamanızı çalışırken güncellemek için kullanılır.
+
+ hotRestart : Uygulamanızı yeniden başlatmak için kullanılır. Bu, uygulamanızın durumunu sıfırlar.
  */
