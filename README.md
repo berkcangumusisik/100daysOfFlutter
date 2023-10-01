@@ -351,6 +351,6 @@
 
 # 63.Gün
 - Statefull Widget
-- Statefull Widget Yaşam Döngüsü
+- Statefull Widget Kullanım
 - Hot Reload
 - Hot Restart
