@@ -354,3 +354,9 @@
 - Statefull Widget Kullanım
 - Hot Reload
 - Hot Restart
+
+# 64.Gün
+- Image.asset Kullanımı
+- Image.network Kullanımı
+- CircleAvatar Kullanımı
+- Buton Çeşitleri
