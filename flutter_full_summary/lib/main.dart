@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_full_summary/widgets/buttons_learn.dart';
+import 'package:flutter_full_summary/widgets/dropdown_learn.dart';
+import 'package:flutter_full_summary/widgets/popup_menu_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(),
-      home: const ButtonLearn(),
+      home: const PopupMenu(),
       debugShowCheckedModeBanner: false,
     );
   }
