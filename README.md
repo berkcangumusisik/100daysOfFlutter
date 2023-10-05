@@ -364,3 +364,10 @@
 # 65.Gün
 - Dropdown Kullanımı
 - Popup Button Kullanımı
+
+# 66.Gün
+- Card Kullanımı
+- ListTile Kullanımı
+- Divider Kullanımı
+- ListView Kullanımı
+- ListView.builder Kullanımı
