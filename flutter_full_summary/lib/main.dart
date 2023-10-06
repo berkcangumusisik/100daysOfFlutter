@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
-import 'package:flutter_full_summary/widgets/list_view_learn.dart';
+import 'package:flutter_full_summary/widgets/gridview_builder_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(),
-      home: ListViewLearn(),
+      home: const GridViewBuilder(),
       debugShowCheckedModeBanner: false,
       builder: EasyLoading.init(),
     );

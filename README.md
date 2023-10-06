@@ -371,3 +371,9 @@
 - Divider Kullanımı
 - ListView Kullanımı
 - ListView.builder Kullanımı
+
+# 67.Gün
+- Alert Dialog Kullanımı
+- GridView Kullanımı
+- GridView.count Kullanımı
+- GridView.builder Kullanımı

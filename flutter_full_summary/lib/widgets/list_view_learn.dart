@@ -25,7 +25,9 @@ class ListViewLearn extends StatelessWidget {
                   EasyLoading.showToast(
                     student.firstName,
                   );
-
+                },
+                onLongPress: () {
+                  _alertDialog(context);
                 },
                 leading: const CircleAvatar(
                   child: Icon(Icons.person),
@@ -39,7 +41,23 @@ class ListViewLearn extends StatelessWidget {
       ),
     );
   }
+
+  void _alertDialog(BuildContext context) {
+    showDialog(
+        context: context,
+        builder: (context) {
+          return AlertDialog(
+            title: const Text("Uyarı"),
+            content: const Text("Bu bir uyarıdır."),
+            actions: [
+              ElevatedButton(onPressed: () {}, child: const Text("Kapat")),
+              ElevatedButton(onPressed: () {}, child: const Text("Tamam")),
+            ],
+          );
+        });
+  }
 }
+
 
 
 /**
