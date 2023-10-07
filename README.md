@@ -377,3 +377,9 @@
 - GridView Kullanımı
 - GridView.count Kullanımı
 - GridView.builder Kullanımı
+
+# 68.Gün
+- Gesture Detector Kullanımı
+- CustomScrollView Kullanımı
+- SliverAppBar Kullanımı
+- SliverList Kullanımı
