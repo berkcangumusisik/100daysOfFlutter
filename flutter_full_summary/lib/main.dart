@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
+import 'package:flutter_full_summary/navigations/home.dart';
 import 'package:flutter_full_summary/widgets/scroll_view_learn.dart';
 
 void main() {
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(),
-      home: const ScrollViewLearn(),
+      home: const NavigatorLearn(),
       debugShowCheckedModeBanner: false,
       builder: EasyLoading.init(),
     );

@@ -383,3 +383,8 @@
 - CustomScrollView Kullanımı
 - SliverAppBar Kullanımı
 - SliverList Kullanımı
+
+# 69.Gün
+- Navigator Kullanımı
+- Navigator.push Kullanımı
+- Navigator.pop Kullanımı
