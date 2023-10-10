@@ -388,3 +388,8 @@
 - Navigator Kullanımı
 - Navigator.push Kullanımı
 - Navigator.pop Kullanımı
+
+# 70.Gün
+- Navigator.pushNamed Kullanımı
+- Navigator.popAndPushNamed Kullanımı
+- Navigator.pushReplacementNamed Kullanımı

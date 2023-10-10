@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
+import 'package:flutter_full_summary/navigations/green_page.dart';
 import 'package:flutter_full_summary/navigations/home.dart';
-import 'package:flutter_full_summary/widgets/scroll_view_learn.dart';
+import 'package:flutter_full_summary/navigations/red_page.dart';
+import 'package:flutter_full_summary/navigations/yellow_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,6 +36,11 @@ class MyApp extends StatelessWidget {
       home: const NavigatorLearn(),
       debugShowCheckedModeBanner: false,
       builder: EasyLoading.init(),
+      routes: {
+        "redPage": (context) => RedPage(),
+        "greenPage": (context) => const GreenPage(),
+        "yellowPage": (context) => const YellowPage(),
+      },
     );
   }
 }
