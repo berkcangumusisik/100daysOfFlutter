@@ -393,3 +393,7 @@
 - Navigator.pushNamed Kullanımı
 - Navigator.popAndPushNamed Kullanımı
 - Navigator.pushReplacementNamed Kullanımı
+
+
+# 71.Gün
+- Burç Uygulaması Tamamlandı
