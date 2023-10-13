@@ -400,7 +400,6 @@
 
 
 
-![Ekran görüntüsü 2023-10-12 134024](https://github.com/berkcangumusisik/100daysOfFlutter/assets/75336900/116649a6-b5ee-46d4-b06d-4a5f12a31ce7)                    ![Ekran görüntüsü 2023-10-12 134033](https://github.com/berkcangumusisik/100daysOfFlutter/assets/75336900/53792427-4c8f-4d96-a739-d8dce52907e1)                                                        ![Ekran görüntüsü 2023-10-12 134324](https://github.com/berkcangumusisik/100daysOfFlutter/assets/75336900/78741c58-7886-4264-ab73-88c710bac55e)
 
 
 
