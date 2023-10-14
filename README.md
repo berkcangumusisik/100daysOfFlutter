@@ -404,3 +404,13 @@
 # 72.Gün
 - TextField Kullanımı
 - TextField Özellikleri
+
+# 73.Gün
+- Form Kullanımı
+- Form Özellikleri
+- TextFormField Kullanımı
+- TextFormField Özellikleri
+- Radio Button Kullanımı
+- Switch Kullanımı
+- Checkbox Kullanımı
+- CheckboxListTile Kullanımı

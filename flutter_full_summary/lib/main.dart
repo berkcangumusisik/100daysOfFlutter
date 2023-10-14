@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
-import 'package:flutter_full_summary/input-widgets/text_field_learn.dart';
-import 'package:flutter_full_summary/navigations/home.dart';
+import 'package:flutter_full_summary/input-widgets/other_form_field_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -38,7 +37,7 @@ class MyApp extends StatelessWidget {
       //   "greenPage": (context) => const GreenPage(),
       //   "yellowPage": (context) => const YellowPage(),
       // },
-      home: const TextFieldLearn(),
+      home: const OtherFormFieldLearn(),
     );
   }
 }
