@@ -1,3 +1,4 @@
+import 'package:dynamic_notes_app/constants/app_constant.dart';
 import 'package:flutter/material.dart';
 
 class ShowAverage extends StatelessWidget {
@@ -8,8 +9,23 @@ class ShowAverage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Column(
-      children: [Text("Ders Sayısı"), Text("2.85"), Text("Ortalama")],
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: [
+        Text(
+          lessonCount > 0 ? "$lessonCount Ders Girildi" : "Ders Seçiniz",
+          style: Consts.lessonNumberStyle,
+        ),
+        Text(
+          average >= 0 ? average.toStringAsFixed(2) : "0.0",
+          style: Consts.averageStyle,
+        ),
+        Text(
+          "Ortalama",
+          style: Consts.lessonNumberStyle,
+        ),
+      ],
     );
   }
 }

@@ -1,4 +1,6 @@
 import 'package:dynamic_notes_app/constants/app_constant.dart';
+import 'package:dynamic_notes_app/helper/data_helper.dart';
+import 'package:dynamic_notes_app/widgets/show_average.dart';
 import 'package:flutter/material.dart';
 
 class NoteAverageApp extends StatefulWidget {
@@ -10,6 +12,8 @@ class NoteAverageApp extends StatefulWidget {
 
 class _NoteAverageAppState extends State<NoteAverageApp> {
   var formKey = GlobalKey<FormState>();
+  double selectedNote = 4;
+  double selectedCredit = 1;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,9 +36,12 @@ class _NoteAverageAppState extends State<NoteAverageApp> {
                 flex: 2,
                 child: Container(child: _buildForm()),
               ),
-              Expanded(
+              const Expanded(
                 flex: 1,
-                child: Container(color: Colors.green, child: const Text('2')),
+                child: ShowAverage(
+                  average: 2.85,
+                  lessonCount: 2,
+                ),
               ),
             ],
           ),
@@ -55,17 +62,13 @@ class _NoteAverageAppState extends State<NoteAverageApp> {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
+              _buildNotes(),
+              _buildCredits(),
               IconButton(
                 onPressed: () {},
-                icon: const Icon(Icons.ac_unit),
-              ),
-              IconButton(
-                onPressed: () {},
-                icon: const Icon(Icons.ac_unit),
-              ),
-              IconButton(
-                onPressed: () {},
-                icon: const Icon(Icons.ac_unit),
+                icon: const Icon(Icons.arrow_forward_ios_outlined),
+                color: Consts.primaryColor,
+                iconSize: 30,
               ),
             ],
           )
@@ -84,6 +87,46 @@ class _NoteAverageAppState extends State<NoteAverageApp> {
         ),
         filled: true,
         fillColor: Consts.primaryColor.shade100.withOpacity(0.3),
+      ),
+    );
+  }
+
+  _buildNotes() {
+    return Container(
+      padding: Consts.padding,
+      decoration: BoxDecoration(
+        color: Consts.primaryColor.shade100.withOpacity(0.3),
+        borderRadius: Consts.borderRadius,
+      ),
+      child: DropdownButton(
+        items: DataHelper.getLetterNotes(),
+        underline: Container(),
+        value: selectedNote,
+        onChanged: (value) {
+          setState(() {
+            selectedNote = value?.toDouble() ?? 4;
+          });
+        },
+      ),
+    );
+  }
+
+  _buildCredits() {
+    return Container(
+      padding: Consts.padding,
+      decoration: BoxDecoration(
+        color: Consts.primaryColor.shade100.withOpacity(0.3),
+        borderRadius: Consts.borderRadius,
+      ),
+      child: DropdownButton(
+        items: DataHelper.getAllCredits(),
+        underline: Container(),
+        value: selectedCredit,
+        onChanged: (value) {
+          setState(() {
+            selectedCredit = value?.toDouble() ?? 4;
+          });
+        },
       ),
     );
   }

@@ -7,7 +7,20 @@ class Consts {
   static final TextStyle headingStyle = GoogleFonts.quicksand(
     fontSize: 18,
     fontWeight: FontWeight.w900,
-    color: Colors.deepOrange,
+    color: primaryColor,
   );
   static BorderRadius borderRadius = BorderRadius.circular(24);
+  static final TextStyle lessonNumberStyle = GoogleFonts.quicksand(
+    fontSize: 16,
+    fontWeight: FontWeight.w600,
+    color:primaryColor,
+  );
+
+  static final TextStyle averageStyle = GoogleFonts.quicksand(
+    fontSize: 36,
+    fontWeight: FontWeight.w900,
+    color: primaryColor,
+  );
+
+  static final EdgeInsets padding = EdgeInsets.symmetric(horizontal: 16, vertical: 8);
 }
