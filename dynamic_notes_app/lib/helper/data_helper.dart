@@ -1,6 +1,23 @@
+import 'package:dynamic_notes_app/model/lesson.dart';
 import 'package:flutter/material.dart';
 
 class DataHelper {
+  static List<Lesson> allLessons = [];
+  static addLesson(Lesson lesson) {
+    allLessons.add(lesson);
+  }
+
+  static double calculateAverage() {
+    double totalNote = 0;
+    double totalCredit = 0;
+
+    for (var element in allLessons) {
+      totalNote += element.credit * element.letterNote;
+      totalCredit += element.credit;
+    }
+    return totalNote / totalCredit;
+  }
+
   static List<String> _letterNotes() {
     return ['AA', 'BA', 'BB', 'CB', 'CC', 'DC', 'DD', 'FD', 'FF'];
   }
@@ -47,7 +64,7 @@ class DataHelper {
     return _allCredits()
         .map((e) => DropdownMenuItem(
               value: e,
-              child: Text("$e Kredi"),
+              child: Text("$e"),
             ))
         .toList();
   }

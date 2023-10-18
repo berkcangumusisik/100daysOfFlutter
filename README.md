@@ -420,4 +420,5 @@
 - DropdownButton Kullanımı
 - DropdownMenuItem Kullanımı
 
-# 75.Gün
+# 75 - 76 - 77. Gün
+- Not Uygulaması Yapıldı.
