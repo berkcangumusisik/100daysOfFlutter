@@ -422,3 +422,6 @@
 
 # 75 - 76 - 77. Gün
 - Not Uygulaması Yapıldı.
+
+![Ekran görüntüsü 2023-10-20 123842](https://github.com/berkcangumusisik/100daysOfFlutter/assets/75336900/14ccee63-f3ab-4563-bdf9-04fc2cf15bf8)
+![Ekran görüntüsü 2023-10-20 123831](https://github.com/berkcangumusisik/100daysOfFlutter/assets/75336900/8b7b8732-7f57-423f-bbd4-5925ba3f6a31)
