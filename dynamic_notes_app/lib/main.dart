@@ -25,4 +25,5 @@ class NotesApp extends StatelessWidget {
 
 /**
  * Visual density : Bize cihazın yoğunluğuna göre bir görünüm sağlar.
+ 
  */
